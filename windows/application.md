@@ -58,3 +58,13 @@
 - [ ] telegram 
 
 
+    @GetMapping("login")
+    public ResponseData loginCheck(HttpServletRequest request){
+
+        String user_info = request.getHeader("user_info");
+        if (user_info == null || user_info.length() == 0){
+            return new ResponseUtil<>().setErrorMsg("token校验失败");
+        }
+        UserInfoDto userInfoDto = JSON.parseObject(user_info, UserInfoDto.class);
+        return new ResponseUtil<>().setData(userInfoDto);
+    }
