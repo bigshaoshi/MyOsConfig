@@ -1,18 +1,4 @@
-# 开发环境配置
-
-## 1.windows
-
-### 1.1 **JDK**环境变量
-
-- JAVA_HOME:  /path/jdk根目录
-- JRE_HOME:  /path/jre根目录
-- JAVA_TOOL_OPTIONS : -Dfile.encoding=UTF-8
-
-- path：  JAVA_HOME/bin ; JRE_HOME/bin
-
-
-
-## 2. mysql 离线包安装教程
+#  MySQL 离线包安装教程
 
 ### 2.1 配置 `my.ini`
 
