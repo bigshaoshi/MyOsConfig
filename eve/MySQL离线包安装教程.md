@@ -1,6 +1,6 @@
-#  MySQL 离线包安装教程
+#  MySQL 的windows离线包安装教程
 
-### 2.1 配置 `my.ini`
+## 1 配置 `my.ini` 文件
 
 > ​	首先**解压mysql离线压缩包**，在根目录下创建文件夹 `data` （一个空目录就可以）以及创建一个名为 `my.ini`的文件
 
@@ -30,19 +30,19 @@
  # 注意，选项组[mysqld]、[mysql]不能漏掉了。
 ```
 
-### 2.2 配置环境变量 `path`
+## 2 配置环境变量 `path`
 
 > 把`mysql根目录下的bin`路径加入到环境变量`path`中
 
 ![image-20220711093839083](https://s2.loli.net/2022/07/11/e2n6Ygs5Qwr89bH.png)
 
-### 2.3 安装mysql
+## 3 安装mysql
 
-#### 2.3.1 输入 `.\mysqld -install`命令安装
+### 3.1 输入 `.\mysqld -install`命令安装
 
 > 若出现Service successfully installed，证明安装成功；如出现Install of the Service Denied，则说明没有以管理员权限来运行cmd.
 
-#### 2.3.2 初始化数据库，获取管理员密码输入命令 `.\mysqld --initialize --user=mysql --console`
+### 3.2 初始化数据库，获取管理员密码输入命令 `.\mysqld --initialize --user=mysql --console`
 
 > 注意下图红色框的就是初始化的管理员密码，这时候，mysql的安装目录下data文件夹已经有数据了。
 >
@@ -50,9 +50,9 @@
 
 ![Win10离线安装mysql5.7（图文教程）插图2](https://s2.loli.net/2022/07/11/CXUcwfTeuzqbrO1.png)
 
-#### 2.3.3 启动mysql，输入命令 `net start mysql`
+## 3.3 启动mysql，输入命令 `net start mysql`
 
-#### 2.3.4 登录并修改密码
+## 3.4 登录并修改密码
 
 > 1、使用初始密码【刚刚生成的密码】登录，输入命令 `.\mysql -u root -p` 
 >
