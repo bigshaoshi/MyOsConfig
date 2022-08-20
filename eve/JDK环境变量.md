@@ -10,8 +10,14 @@
 
 ## 2、 Linux
 
+- 环境写入文件的位置：  1. /etc/profile [推荐]  2.~/.bashrc  or ~/.zshrc  3.shell终端设置环境变量
+- 写入内容：
+```shell
+export JAVA_HOME=/jdk-path
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
-
+```
 
 
 ## 3、macOS

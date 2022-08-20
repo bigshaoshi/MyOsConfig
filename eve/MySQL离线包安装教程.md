@@ -4,7 +4,7 @@
 
 > ​	首先**解压mysql离线压缩包**，在根目录下创建文件夹 `data` （一个空目录就可以）以及创建一个名为 `my.ini`的文件
 
-![image-20220711093337358](https://s2.loli.net/2022/07/11/uaHmvwgiMpSePlb.png)
+![image-20220711093337358](https://i.imgur.com/SKFxs42.png)
 
 `my.ini`的文件内容如下填入：
 
@@ -48,7 +48,7 @@
 >
 > 这时候，mysql的安装目录下已经生产Data文件夹了
 
-![Win10离线安装mysql5.7（图文教程）插图2](https://s2.loli.net/2022/07/11/CXUcwfTeuzqbrO1.png)
+![Win10离线安装mysql5.7（图文教程）插图2](https://i.imgur.com/xCTKdXJ.png)
 
 ## 3.3 启动mysql，输入命令 `net start mysql`
 
