@@ -16,9 +16,11 @@ tar -zxvf gcc-xx.x.x.tar.gz
 
 # 三、下载安装依赖
 
+```shell
 cd gcc-xx.x.x
 ./contrib/download_prerequisites
 cd ..
+```
 
 # 四、编译gcc
 
