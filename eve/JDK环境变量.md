@@ -19,6 +19,20 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 ```
 
+export JAVA_HOME=/home/wsj/.jdks/semeru-1.8.0_352
+export PATH=$JAVA_HOME/bin:$PATH
+export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+
 
 ## 3、macOS
 
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Start Eureka
+Icon=/opt/idea-IU-222.4345.14/bin/idea.svg
+Exec="/file/work/serverices/eureka/starteureka.sh"
+Comment=打开eureka
+Categories=shell脚本
+Terminal=true
+StartupNotify=true

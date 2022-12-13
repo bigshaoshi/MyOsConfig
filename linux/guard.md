@@ -120,3 +120,15 @@ https://fls.aventus.work
 
 ```
 
+
+## sogouinput
+
+1. install deb
+
+2. install -f
+
+3. install dependecies
+```shell
+sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 libgsettings-qt1
+```
+
