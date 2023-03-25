@@ -132,3 +132,12 @@ https://fls.aventus.work
 sudo apt install libqt5qml5 libqt5quick5 libqt5quickwidgets5 qml-module-qtquick2 libgsettings-qt1
 ```
 
+## 配置Linux下软件支持 
+```
+1.编辑~/.local/share/applications/telegramdesktop.desktop文件
+
+2.修改 Exec 该行，添加环境变量env QT_IM_MODULE=ibus ，使用 fcitx 的用户，把 ibus 替换成 fcitx
+
+3.重新启动telegram即可
+```
+
