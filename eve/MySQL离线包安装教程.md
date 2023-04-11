@@ -44,6 +44,10 @@
 
 ### 3.2 初始化数据库，获取管理员密码输入命令 `.\mysqld --initialize --user=mysql --console`
 
+`
+.\mysqld --initialize-insecure
+`
+
 > 注意下图红色框的就是初始化的管理员密码，这时候，mysql的安装目录下data文件夹已经有数据了。
 >
 > 这时候，mysql的安装目录下已经生产Data文件夹了
